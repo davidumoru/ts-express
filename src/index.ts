@@ -1,5 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
+import glowr = require('glowr')
 
 dotenv.config();
 
@@ -11,5 +12,5 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 app.listen(port, () => {
-  console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+  console.log(glowr(`⚡️[server]: Server is running at http://localhost:${port}`, `bg.green`));
 });
