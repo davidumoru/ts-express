@@ -1,6 +1,6 @@
 import express, { Express, Request, Response } from 'express';
 import dotenv from 'dotenv';
-import glowr = require('glowr')
+import glowr from 'glowr';
 
 dotenv.config();
 
