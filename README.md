@@ -1,6 +1,6 @@
 # Express + TypeScript Server Template
 
-This is a template for creating a server using Express.js with TypeScript.
+This is a template for creating an Express server with TypeScript.
 
 ## Prerequisites
 
@@ -11,7 +11,7 @@ This is a template for creating a server using Express.js with TypeScript.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/davidumoru/ts-backend.git
+   git clone https://github.com/davidumoru/ts-express.git
    ```
 
 2. Navigate to the project directory:
